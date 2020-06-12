@@ -22,6 +22,7 @@ public class Sort {
         }
     }
 
+
     /**
      * 选择排序 O(n^2)
      *
@@ -107,6 +108,7 @@ public class Sort {
         quickSort(array,pl + 1,right);
     }
 
+
     /**
      *归并排序；O(n*lgn)
      *
@@ -143,6 +145,7 @@ public class Sort {
             array[l + j] = newSort[j];
         }
     }
+
 
     /**
      * 堆排序  O(n*logn)
@@ -186,7 +189,4 @@ public class Sort {
             heapSize--;
         }
     }
-
-
-
 }
